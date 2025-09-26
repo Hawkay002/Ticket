@@ -1217,7 +1217,7 @@ window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
     // Beep sound function
     function playBeepSound() {
         try {
-            const beep = new Audio('/smoke-detector-beep.mp3');
+            const beep = new Audio('smoke-detector-beep.mp3');
             beep.play().catch(e => console.log('Audio play failed:', e));
         } catch (e) {
             console.log('Audio play failed:', e);
@@ -1227,7 +1227,7 @@ window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
     // Error sound function
     function playErrorSound() {
         try {
-            const errorSound = new Audio('/steamos-error.mp3');
+            const errorSound = new Audio('steamos-error.mp3');
             errorSound.play().catch(e => console.log('Audio play failed:', e));
         } catch (e) {
             console.log('Audio play failed:', e);
